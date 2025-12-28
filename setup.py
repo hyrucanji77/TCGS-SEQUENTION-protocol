@@ -1,0 +1,41 @@
+"""
+TCGS-SEQUENTION Protocol Package Setup
+"""
+
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setup(
+    name="sequention-protocol",
+    version="3.0.0",
+    author="Henry Arellano-Peña",
+    author_email="harellano@unal.edu.co",
+    description="Three-Gate Falsification Protocol for Synchronous Parallel Emergence",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/YOUR-USERNAME/sequention-protocol",
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Bio-Informatics",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+    python_requires=">=3.8",
+    install_requires=[
+        "numpy>=1.20.0",
+        "pandas>=1.3.0",
+        "scipy>=1.7.0",
+        "matplotlib>=3.4.0",
+    ],
+    extras_require={
+        "dev": ["pytest>=6.0.0"],
+    },
+)

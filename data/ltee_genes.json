@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "description": "LTEE parallel gene mutation timing data",
+    "sources": [
+      "Good et al. 2017 Nature",
+      "Tenaillon et al. 2016 Nature",
+      "Maddamsetti et al. 2020 GBE"
+    ],
+    "units": "generations",
+    "framework": "TCGS-SEQUENTION",
+    "version": "1.0"
+  },
+  "populations": [
+    "Ara-1", "Ara-2", "Ara-3", "Ara-4", "Ara-5", "Ara-6",
+    "Ara+1", "Ara+2", "Ara+3", "Ara+4", "Ara+5", "Ara+6"
+  ],
+  "mutator_status": {
+    "Ara-1": {"type": "MMR", "onset": 26000},
+    "Ara-2": {"type": "MMR", "onset": 7000},
+    "Ara-3": {"type": "non-mutator", "onset": null},
+    "Ara-4": {"type": "non-mutator", "onset": null},
+    "Ara-5": {"type": "non-mutator", "onset": null},
+    "Ara-6": {"type": "MMR", "onset": 36000},
+    "Ara+1": {"type": "MMR", "onset": 2500},
+    "Ara+2": {"type": "non-mutator", "onset": null},
+    "Ara+3": {"type": "MMR", "onset": 1000},
+    "Ara+4": {"type": "non-mutator", "onset": null},
+    "Ara+5": {"type": "non-mutator", "onset": null},
+    "Ara+6": {"type": "MutT", "onset": 30000}
+  },
+  "genes": {
+    "spoT": {
+      "description": "(p)ppGpp metabolism - stringent response regulator",
+      "timing": {
+        "Ara-1": 1500, "Ara-2": 2000, "Ara-3": 3000, "Ara-4": 2500,
+        "Ara-5": 2000, "Ara-6": 3500,
+        "Ara+1": 2000, "Ara+2": 4000, "Ara+3": 1000, "Ara+4": 3000,
+        "Ara+5": 2500, "Ara+6": 3000
+      }
+    },
+    "topA": {
+      "description": "DNA topoisomerase I - supercoiling control",
+      "timing": {
+        "Ara-1": 5000, "Ara-2": 6500, "Ara-3": 7000, "Ara-4": 5500,
+        "Ara-5": 6000, "Ara-6": 8000,
+        "Ara+1": 5500, "Ara+4": 6500,
+        "Ara+5": 5000, "Ara+6": 7500
+      }
+    },
+    "fis": {
+      "description": "Global transcription regulator",
+      "timing": {
+        "Ara-1": 4000, "Ara-2": 5500, "Ara-4": 4500,
+        "Ara-5": 5000, "Ara-6": 6500,
+        "Ara+1": 4500, "Ara+4": 5500, "Ara+5": 4000
+      }
+    },
+    "pykF": {
+      "description": "Pyruvate kinase I - central carbon metabolism",
+      "timing": {
+        "Ara-1": 8000, "Ara-2": 5000, "Ara-3": 7500, "Ara-4": 6000,
+        "Ara-5": 10000, "Ara-6": 12000,
+        "Ara+1": 9000, "Ara+2": 7000, "Ara+3": 6500, "Ara+4": 11000,
+        "Ara+5": 8500, "Ara+6": 15000
+      }
+    },
+    "nadR": {
+      "description": "NAD biosynthesis regulator",
+      "timing": {
+        "Ara-1": 15000, "Ara-2": 12000, "Ara-3": 18000,
+        "Ara-5": 14000, "Ara-6": 20000,
+        "Ara+1": 16000, "Ara+2": 13000, "Ara+4": 17000, "Ara+5": 15500
+      }
+    },
+    "hslU": {
+      "description": "ATP-dependent protease subunit",
+      "timing": {
+        "Ara-1": 10000, "Ara-2": 8500,
+        "Ara-4": 9000, "Ara-5": 11000,
+        "Ara+1": 9500, "Ara+4": 10500, "Ara+6": 12500
+      }
+    },
+    "iclR": {
+      "description": "Isocitrate lyase repressor - glyoxylate shunt",
+      "timing": {
+        "Ara-1": 7000, "Ara-2": 6000, "Ara-3": 8500,
+        "Ara-5": 7500,
+        "Ara+1": 6500, "Ara+2": 9000, "Ara+4": 8000, "Ara+5": 7000
+      }
+    },
+    "mrdA": {
+      "description": "Penicillin-binding protein 2 - cell shape",
+      "timing": {
+        "Ara-1": 12000, "Ara-2": 10000,
+        "Ara-4": 11000, "Ara-5": 13000,
+        "Ara+1": 11500, "Ara+4": 14000
+      }
+    },
+    "infB": {
+      "description": "Translation initiation factor IF-2",
+      "timing": {
+        "Ara-1": 25000, "Ara-3": 30000,
+        "Ara+1": 28000, "Ara+4": 32000, "Ara+5": 27000
+      }
+    },
+    "rbs_operon": {
+      "description": "Ribose utilization - completely lost in most populations",
+      "timing": {
+        "Ara-1": 4000, "Ara-2": 3500, "Ara-3": 5000, "Ara-4": 4500,
+        "Ara-5": 4000, "Ara-6": 5500,
+        "Ara+1": 4000, "Ara+2": 6000, "Ara+3": 3000, "Ara+4": 5000,
+        "Ara+5": 4500, "Ara+6": 6500
+      }
+    },
+    "ybaL": {
+      "description": "Membrane protein of unknown function",
+      "timing": {
+        "Ara-1": 6000, "Ara-2": 5000, "Ara-3": 7000, "Ara-4": 5500,
+        "Ara-5": 6500, "Ara-6": 8000,
+        "Ara+1": 5500, "Ara+2": 7500, "Ara+3": 4500, "Ara+4": 6500,
+        "Ara+5": 6000
+      }
+    },
+    "mreB": {
+      "description": "Actin-like cytoskeleton - cell shape",
+      "timing": {
+        "Ara-1": 11000, "Ara-2": 9000, "Ara-3": 13000,
+        "Ara-5": 10000,
+        "Ara+1": 10500, "Ara+4": 12000, "Ara+5": 11500
+      }
+    },
+    "arcA": {
+      "description": "Aerobic respiration control regulator",
+      "timing": {
+        "Ara-1": 20000, "Ara-2": 18000,
+        "Ara-4": 22000, "Ara-5": 19000,
+        "Ara+1": 21000, "Ara+4": 24000
+      }
+    }
+  }
+}
