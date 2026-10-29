@@ -1,0 +1,93 @@
+{
+  "template": "U=-G*m1*m2/r*(1+beta2*r_ref/r)",
+  "mapping": "ell=pi*beta2*r_ref/2; E=2*beta2*r_ref/r",
+  "assumptions": [
+    "critical nu=3/2",
+    "sharp boundary readout",
+    "universal unscreened pairwise mass coupling",
+    "no independent continuum amplitude"
+  ],
+  "confidence_note": "Inherited published magnitude constraints; no new likelihood, no 95% claim.",
+  "scope": "Historical comparisons, not strongest-current-bound claims.",
+  "sources": [
+    {
+      "id": "hoyle2004",
+      "source": "Hoyle et al. (2004)",
+      "doi": "10.1103/PhysRevD.70.042004",
+      "table": "XIV",
+      "source_url": "https://arxiv.org/abs/hep-ph/0405262",
+      "historical_role": "Weaker k=2 comparison; not the strongest pre-2007 k=2 bound.",
+      "coefficient_and_confidence_provenance": {
+        "doi": "10.1103/PhysRevD.70.042004",
+        "table": "XIV, k=2, this work",
+        "pdf_page_1based": 29,
+        "pdf": "https://arxiv.org/pdf/hep-ph/0405262"
+      },
+      "published_confidence_percent": 68,
+      "beta2_abs_limit": 0.0036,
+      "reference_length_m": 0.001,
+      "ell_limit_m": 5.6548667764616275e-06,
+      "ell_limit_micrometres": 5.654866776461628,
+      "comparison_sectional_curvature_magnitude_min_m2": 31271970259.980797,
+      "comparison_H4_scalar_curvature_magnitude_min_m2": 375263643119.7696
+    },
+    {
+      "id": "adelberger2007",
+      "source": "Adelberger et al. (2007)",
+      "doi": "10.1103/PhysRevLett.98.131104",
+      "table": "I",
+      "source_url": "https://arxiv.org/abs/hep-ph/0611223v3",
+      "historical_role": "Main matched-template bound used in the manuscript.",
+      "coefficient_and_confidence_provenance": {
+        "doi": "10.1103/PhysRevLett.98.131104",
+        "table": "I, k=2, this work",
+        "pdf_page_1based": 3,
+        "pdf": "https://arxiv.org/pdf/hep-ph/0611223v3"
+      },
+      "published_confidence_percent": 68,
+      "beta2_abs_limit": 0.00045,
+      "reference_length_m": 0.001,
+      "ell_limit_m": 7.068583470577034e-07,
+      "ell_limit_micrometres": 0.7068583470577035,
+      "comparison_sectional_curvature_magnitude_min_m2": 2001406096638.771,
+      "comparison_H4_scalar_curvature_magnitude_min_m2": 24016873159665.254
+    },
+    {
+      "id": "hoskins1985",
+      "source": "Hoskins et al. (1985)",
+      "doi": "10.1103/PhysRevD.32.3084",
+      "table": "I (Adelberger 2007), XIV (Hoyle 2004)",
+      "source_url": "https://dcc.ligo.org/LIGO-T850003/public",
+      "historical_role": "Tighter pre-2007 k=2 comparator identified in both later tables.",
+      "coefficient_and_confidence_provenance": {
+        "doi": "10.1103/PhysRevLett.98.131104",
+        "table": "I, k=2, previous constraints, reference 15",
+        "pdf_page_1based": 3,
+        "pdf": "https://arxiv.org/pdf/hep-ph/0611223v3",
+        "corroboration": "Hoyle 2004 Table XIV, k=2, previous work, reference 9"
+      },
+      "published_confidence_percent": 68,
+      "beta2_abs_limit": 0.0013,
+      "reference_length_m": 0.001,
+      "ell_limit_m": 2.042035224833365e-06,
+      "ell_limit_micrometres": 2.042035224833365,
+      "comparison_sectional_curvature_magnitude_min_m2": 239813452407.90015,
+      "comparison_H4_scalar_curvature_magnitude_min_m2": 2877761428894.802
+    }
+  ],
+  "later_literature": [
+    {
+      "source": "Bsaibes and Decca (2024)",
+      "doi": "10.3390/metrology4020014",
+      "role": "Power-law reanalysis; authors report no improvement over existing limits.",
+      "quantitative_beta2_input_used": false
+    },
+    {
+      "source": "Murata, Fujiie, and Suzuki (2026)",
+      "arxiv": "2605.18212v2",
+      "role": "Section 5 distinguishes reconstructed estimates from directly fitted confidence limits.",
+      "quantitative_beta2_input_used": false
+    }
+  ],
+  "last_literature_check": "2026-10-29"
+}

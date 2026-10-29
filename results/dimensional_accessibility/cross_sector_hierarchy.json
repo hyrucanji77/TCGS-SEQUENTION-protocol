@@ -1,0 +1,14 @@
+{
+  "ell_m": 7.068583470577034e-07,
+  "a_star_m_s2": 1.2e-10,
+  "c_m_s": 299792458.0,
+  "comparison_acceleration_m_s2": 1.271478482892484e+23,
+  "xi_times_eta_H": 9.437831753708663e-34,
+  "unsuppressed_curvature_radius_m": 7.48962648947348e+26,
+  "scale_ratio": 1.0595654024104032e+33,
+  "status": "Conditional dimensional comparison, not an empirical likelihood or derived ECL rule.",
+  "acceleration_source": "McGaugh, Lelli, and Schombert (2016), DOI 10.1103/PhysRevLett.117.201101",
+  "acceleration_role": "Illustrative central calibration only; uncertainties are not combined with the laboratory bound.",
+  "geometry_convention": "|H|=eta_H/ell; eta_H=1 for averaged principal curvature, eta_H=3 for its trace.",
+  "ell_source": "Adelberger et al. (2007), Table I, k=2; inherited 68% confidence convention."
+}
