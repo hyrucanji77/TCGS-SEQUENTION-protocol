@@ -1,39 +1,32 @@
 {
-  "release": 3,
+  "computational_release": 4,
+  "article_version": 5,
   "date": "2026-11-01",
-  "total_checks": 176,
+  "total_checks": 276,
   "all_checks_passed": true,
   "reports": {
-    "results.json": {
-      "checks": 30,
-      "passed": true
-    },
-    "extension_results.json": {
-      "checks": 53,
-      "passed": true
-    },
-    "nonlinear_slab_results.json": {
-      "checks": 23,
-      "passed": true
-    },
-    "model_discrimination_results.json": {
-      "checks": 70,
-      "passed": true
-    }
+    "results.json": {"checks": 30, "passed": true},
+    "extension_results.json": {"checks": 53, "passed": true},
+    "nonlinear_slab_results.json": {"checks": 23, "passed": true},
+    "model_discrimination_results.json": {"checks": 70, "passed": true},
+    "empirical_reach_results.json": {"checks": 100, "passed": true}
   },
-  "environment": {
-    "python": "3.13.5",
-    "mpmath": "1.3.0",
-    "sympy": "1.14.0",
-    "numpy": "2.3.5",
-    "scipy": "1.17.0"
+  "environment": {"python": "3.13.5", "mpmath": "1.3.0", "sympy": "1.14.0", "numpy": "2.3.5", "scipy": "1.17.0"},
+  "previous_snapshot": "c7537cefeae54718e9637e2de5bbfbab10c07216",
+  "git_blob_sha": {
+    "code/verify_results.py": "fc7384ea73a29da8041602a9276846251f7dd8b6",
+    "code/verify_extensions.py": "6db2f012aef563a944a02d672e2f5f76043e1adb",
+    "code/verify_nonlinear_slab.py": "9405c6279cbf46b7d2f1b3e39851c1eb238eab04",
+    "code/verify_model_discrimination.py": "031408edd83267dd76d8db38935d70431d1da51e",
+    "code/verify_empirical_reach.py": "12d53e2254113b11d053a06dbc01b4da3d63d76a"
   },
   "sha256": {
-    "code/requirements.txt": "eb38f76d3b70ec8085d24e44ce316132b320a102b4e94e712b400ebb26d858d9",
+    "code/verify_results.py": "a7fef2f540762371efea95996ad0d8edf15098ae9926c74a13384131debb180f",
     "code/verify_extensions.py": "dc4cdafaf17d63fbc88069c2071e3e1f01ec58b7635c5410317d25ebcf4d6223",
-    "code/verify_model_discrimination.py": "9cf1e3ee0c6a77e37ef31475017fa5fa57b90bfc50086a096924d445929de2bd",
     "code/verify_nonlinear_slab.py": "571d1b7981a0d4351c5773bf7919f9e5b3af6dc27a942ba597517898e360120f",
-    "code/verify_results.py": "a7fef2f540762371efea95996ad0d8edf15098ae9926c74a13384131debb180f"
+    "code/verify_model_discrimination.py": "9cf1e3ee0c6a77e37ef31475017fa5fa57b90bfc50086a096924d445929de2bd",
+    "code/verify_empirical_reach.py": "4308c650cd881b6d64873f63f2958548aa0d136b876c0f039826c979b5946564",
+    "code/requirements.txt": "eb38f76d3b70ec8085d24e44ce316132b320a102b4e94e712b400ebb26d858d9"
   },
-  "scope": "Finite symbolic and numerical checks; no empirical fit and no independent quantum-loop recomputation."
+  "scope": "Finite symbolic and numerical consistency checks. No catalogue fit, stellar two-body error certification, full-tower likelihood, or independent quantum-loop calculation."
 }

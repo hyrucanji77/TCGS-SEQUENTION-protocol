@@ -1,0 +1,22 @@
+{
+  "conditions": "M=2 solar masses; y_b=1.8; a_star=1.2e-10 m/s^2; r_J=1.7 pc; C_p=1. Equality gives a single touching separation, not a finite interval.",
+  "thresholds": [
+    {
+      "order": 1,
+      "C_p": "1",
+      "held_tolerance": ".001",
+      "tidal_threshold": "0.3651312910823222428541509",
+      "nonlinear_threshold": "0.0510857023362466014864442",
+      "lower_to_upper_ratio": "7.147426273578944828600194"
+    },
+    {
+      "order": 2,
+      "C_p": "1",
+      "held_tolerance": ".001",
+      "tidal_threshold": "0.002053284140956961796045162",
+      "nonlinear_threshold": "0.002609748983187591477160267",
+      "lower_to_upper_ratio": "1.271012097707666245034557"
+    }
+  ],
+  "scope": "Diagnostic envelope only; no observing window has been certified."
+}

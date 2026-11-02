@@ -1,0 +1,13 @@
+{
+  "name": "Gravitational Constitution computational supplement",
+  "release": 4,
+  "date": "2026-11-01",
+  "author": "Henry Arellano-Peña",
+  "article_version": 5,
+  "previous_release_commit": "c7537cefeae54718e9637e2de5bbfbab10c07216",
+  "suites": 5,
+  "checks": 276,
+  "previous_checks_preserved": 256,
+  "additional_tolerance_checks": 20,
+  "license": "CC-BY-4.0"
+}
